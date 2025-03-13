@@ -1,21 +1,17 @@
 import os
-import google.generativeai as genai  # Ensure this import is present
+import google.generativeai as genai
 from dotenv import load_dotenv
 
-# Load API key from environment variables
+
 load_dotenv()
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
-# Function to analyze the feedback and generate results
 def analyze_feedback(feedback_list, analysis_focus):
-    # Ensure all feedback entries are strings and filter out empty entries
     feedback_list = [str(feedback).strip() for feedback in feedback_list if str(feedback).strip()]
 
-    # Check if the feedback list is empty
     if not feedback_list:
         return "No valid feedback provided for analysis."
 
-    # Customize the prompt based on user choices
     if analysis_focus == 'Sentiment Analysis':
         prompt = (
             "Analyze the following customer feedback for sentiment (Positive, Neutral, Negative):\n"
@@ -38,12 +34,10 @@ def analyze_feedback(feedback_list, analysis_focus):
     else:
         return "Invalid analysis focus selected."
 
-    # Append feedback to the prompt
     prompt += "\n".join(feedback_list)
 
-    # Generate response using Gemini model
-    model = genai.GenerativeModel("gemini-2.0-flash-exp")
+
+    model = genai.GenerativeModel("gemini-2.0-flash-exp")#select Modles based on your intrest 
     response = model.generate_content(prompt)
 
-    # Return the cleaned-up response text
     return response.text.strip()

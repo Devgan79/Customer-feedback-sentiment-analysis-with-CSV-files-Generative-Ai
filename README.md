@@ -66,6 +66,11 @@ For additional guidance on building Streamlit apps with LLMs, refer to the [Stre
 ## Contributing
 Contributions are welcome! If you'd like to improve the app or add features, please fork the repo and submit a pull request. Caio!
 
+###App
+![Project Screenshot](
+/Screenshot_app.jpg)
+
+
 ## Contact
 For questions or suggestions, feel free to reach out via [your contact details].
 

@@ -2,17 +2,14 @@ import streamlit as st
 import pandas as pd
 from analysis import analyze_feedback
 
-# Title for the app
 st.title("Customer Feedback Analyzer")
 
-# File uploader
 uploaded_file = st.file_uploader("Upload a CSV file", type=["csv"])
 
 if uploaded_file is not None:
-    # Load the CSV into a DataFrame
     df = pd.read_csv(uploaded_file)
 
-    # Display the DataFrame preview
+    #DataFrame preview
     st.write("### Uploaded Data Preview")
     st.dataframe(df.head())
 

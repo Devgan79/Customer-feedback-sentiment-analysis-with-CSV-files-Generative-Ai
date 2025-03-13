@@ -35,3 +35,6 @@ if uploaded_file is not None:
 
             st.write("### Analysis Results")
             st.markdown(result)
+
+
+#####TO RUN THIS TYPE THIS(streamlit run main.py)

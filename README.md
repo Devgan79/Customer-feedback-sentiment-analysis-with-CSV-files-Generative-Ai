@@ -6,7 +6,7 @@ The **Customer Feedback Analyzer** is a powerful web application that helps busi
 - 📂 Upload CSV files with customer feedback data.
 - 🔍 Choose your analysis focus:
   - Sentiment Analysis (Positive, Neutral, Negative)
-  - Theme Identification (e.g., pricing, service, product quality
+  - Theme Identification (e.g., pricing, service, product qualitY.
   - Improvement Suggestions
   - All of the Above.
 - 🧠 AI-driven insights powered by Google's Gemini 2.0 API. 

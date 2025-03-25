@@ -9,7 +9,7 @@ The **Customer Feedback Analyzer** is a powerful web application that helps busi
   - Theme Identification (e.g., pricing, service, product qualitY.
   - Improvement Suggestions
   - All of the Above
-- 🧠 AI-driven insights powered by Google's Gemini 2.0 API. 
+- 🧠 AI-driven insights powered by Google's Gemini 2.0 API.(You Can use any Models of your intrest) 
   Create this Api key from Google studio [Link](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj39qiyioeMAxVohf0HHe5bJRsQmuEJegQIHRAB&url=https%3A%2F%2Faistudio.google.com%2Fapp%2Fapikey&usg=AOvVaw1WWenMsZaHnCnN4FhYRAe9&opi=89978449).
 
 ---

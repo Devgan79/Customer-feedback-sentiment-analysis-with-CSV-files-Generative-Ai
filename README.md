@@ -73,4 +73,4 @@ Contributions are welcome! If you'd like to improve the app or add features, ple
 
 ## Contact
 For questions or suggestions, feel free to reach out via [your contact details].
-
+Happy Coding!!!
